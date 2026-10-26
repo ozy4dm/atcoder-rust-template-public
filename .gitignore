@@ -1,0 +1,6 @@
+/target/
+**/target/
+*.exe
+*.pdb
+/practice/**/test/
+/practice/progress.json
