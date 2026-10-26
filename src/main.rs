@@ -1,3 +1,4 @@
+// 事前公開したテンプレート: https://github.com/ozy4dm/atcoder-rust-template-public
 fn main() {
     // 入力が必要になったら、次の行を自分で有効にして書き足す。
     // use std::io::Read;
