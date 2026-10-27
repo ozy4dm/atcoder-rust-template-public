@@ -4,7 +4,7 @@
 
 ## 内容
 
-- `src/main.rs`：最小限の `main` 関数。入力例はすべてコメントアウトしてあります。`itertools::Itertools` は使える状態です。
+- `src/main.rs`：最小限の `main` 関数。入力例はすべてコメントアウトしてあります。よく使うライブラリの `use` 文を用意しています。
 - `snippets/dsu.rs`：Union-Find（DSU）の部品。使う場合は必要な部分を提出コードへコピーします。
 - `practice/`：これから自分で書く練習コードの置き場所。問題文・サンプル入出力・個人の進捗データは置きません。
 
@@ -19,7 +19,7 @@ rustc --test snippets/dsu.rs -o dsu_test.exe
 
 `src/main.rs` は現在、何も出力しません。必要な入力処理を自分で有効にし、問題ごとに書き足して使います。
 
-`Cargo.toml` では `itertools` を `0.14.0` に固定し、依存する `either` もAtCoderで利用できる `1.15.0` に固定しています。
+`Cargo.toml` ではAtCoderのRust環境に合わせ、`itertools`、`proconio`、`ac-library-rs`、`superslice`、`num-integer`、`rustc-hash` を固定版で用意しています。`either` は `itertools` の依存版を揃えるために追加しています。入力処理や解法は自分で書き足す構成です。
 
 ## コンテスト中にコードを使う場合
 
