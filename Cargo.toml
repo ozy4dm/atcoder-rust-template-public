@@ -4,4 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+itertools = "=0.14.0"
+either = "=1.15.0"
 

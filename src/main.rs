@@ -2,6 +2,8 @@
 // https://github.com/ozy4dm/atcoder-rust-template-public
 #[allow(unused_imports)]
 use std::io::{self, Read};
+#[allow(unused_imports)]
+use itertools::Itertools;
 
 // 必要になったら有効にする。
 // use std::cmp::Reverse;
