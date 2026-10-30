@@ -1,0 +1,18 @@
+{
+  "name": "動作デモ（AHCの問題ではありません）",
+  "root": "..",
+  "source": "demo/solver.py",
+  "inputs": "demo/inputs",
+  "runs": "runs/demo",
+  "direction": "max",
+  "mode": "offline",
+  "solver_command": ["{python}", "{solver}", "--power", "1"],
+  "judge_command": ["{python}", "{root}/demo/judge.py", "{input}", "{output}"],
+  "timeout_seconds": 3,
+  "judge_timeout_seconds": 3,
+  "workers": 1,
+  "features": [
+    {"name": "品物数 N", "line": 0, "token": 0, "bins": [50, 90], "labels": ["小：N < 50", "中：50 ≤ N < 90", "大：N ≥ 90"]},
+    {"name": "容量 C", "line": 0, "token": 1, "bins": [100, 180], "labels": ["小：C < 100", "中：100 ≤ C < 180", "大：C ≥ 180"]}
+  ]
+}

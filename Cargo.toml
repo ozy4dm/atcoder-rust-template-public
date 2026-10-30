@@ -2,6 +2,7 @@
 name = "abc-rust-kit"
 version = "0.1.0"
 edition = "2021"
+license = "0BSD"
 
 [dependencies]
 itertools = "=0.14.0"

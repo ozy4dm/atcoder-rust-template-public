@@ -4,3 +4,7 @@
 *.pdb
 /practice/**/test/
 /practice/progress.json
+/contests/*
+!/contests/README.md
+/.test-tmp/
+**/__pycache__/

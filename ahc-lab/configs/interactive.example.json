@@ -1,0 +1,21 @@
+{
+  "name": "Interactive contest (example)",
+  "root": ".",
+  "source": "main.rs",
+  "submissions": "submissions",
+  "inputs": "inputs",
+  "runs": "runs",
+  "ready": false,
+  "setup_message": "大会フォルダのlab.jsonとして保存し、採点方向・制限時間・ツールを設定してください。",
+  "direction": null,
+  "mode": "interactive",
+  "build_command": ["rustc", "--edition=2021", "-O", "{source}", "-o", "{binary}"],
+  "solver_command": ["{solver}"],
+  "tester_command": ["{root}/tools/tester.exe", "{solver_args}"],
+  "score_stream": "stderr",
+  "timeout_seconds": 10,
+  "judge_timeout_seconds": 10,
+  "workers": 1,
+  "judge_ignore_patterns": ["^DEBUG:.*$"],
+  "features": []
+}
